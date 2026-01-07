@@ -9,8 +9,6 @@
 # required_version: 2.7.0
 
 enabled_site_setting :coin_enabled
-enabled_site_setting :coin_name, default: "硬币"
-enabled_site_setting :coin_invoice_enabled, default: false
 
 register_asset "stylesheets/coin.scss"
 
